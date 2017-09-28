@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signfeeder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="#e0000000"
+    android:orientation="vertical"
+    tools:context=".Signfeeder">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="20dp"
+        android:textSize="25dp"
+        android:id="@+id/sign_textviewid"
+        android:gravity="center"
+        android:hint="Enter Text or Key"
+        android:textColorHint="#CCEC407A"
+        android:textColor="#11ff11"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick Image"
+                android:textSize="20dp"
+                android:id="@+id/selectfile"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="35dp"
+                android:textColor="#11ff11"
+                android:background="#CC000000"
+                android:layout_marginLeft="10dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stamp Image"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="35dp"
+                android:textColor="#11ff11"
+                android:background="#CC000000"
+                android:padding="20dp"
+                android:id="@+id/insertsign_buttonid"
+                android:layout_marginLeft="10dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Extract"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="35dp"
+                android:textColor="#11ff11"
+                android:background="#CC000000"
+                android:padding="20dp"
+                android:id="@+id/extaid"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

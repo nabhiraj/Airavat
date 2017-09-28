@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="50dp"
+    android:background="#f0000000"
+    android:orientation="vertical"
+    tools:context=".Aboutus">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src = "@drawable/vector2"
+        android:scaleType="fitCenter"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="\u0040 Developers"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FF6F00"
+        android:textSize="22dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="\n\n                      Nabhiraj Jain \n\n Contact details:\n \u260F +91-7987273901\n \u2709 nabhinewton04@gmail\n\n                      Ayush Nigam \n\nContact  details:\n \u260F +91-9424378853\n \u2709 ayush.nigam95@outlook/gmail.com\n\n "
+            android:textColor="#CCFFFFFF"
+            android:textSize="22sp" />
+
+
+    </ScrollView>
+</LinearLayout>

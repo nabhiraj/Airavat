@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/preview"
+        android:scaleType="centerCrop"/>
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button android:id="@+id/freezebuttonid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#CC000000"
+                android:padding="15dp"
+                android:text="Heat Server"
+                android:textColor="#11ff11"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/emp"/>
+            <Button
+                android:id="@+id/insertsignatureid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:textColor="#11ff11"
+                android:background="#CC000000"
+                android:padding="15dp"
+                android:text="Stamp Image"
+
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/stamp"/>
+            <Button
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#CC000000"
+                android:padding="15dp"
+                android:text="Assistance !"
+                android:textColor="#4FC3F7"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/assistance2"/>
+            <Button
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="#CC000000"
+                android:padding="15dp"
+                android:text="\u0040 developer"
+                android:textColor="#FF6F00"
+                android:drawableLeft="@drawable/developers"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

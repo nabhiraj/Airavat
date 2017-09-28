@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0000000"
+    android:orientation="vertical"
+    tools:context=".Help">
+
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bazk"
+        android:scaleType="centerCrop"/>
+
+     <ScrollView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:layout_height="match_parent">
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="20dp"
+                 android:paddingBottom="20dp"
+                 android:text="[ Heat Server !]"
+                 android:textSize="30sp"
+                 android:textColor="#CC4FC3F7"
+                 />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="10dp"
+                 android:paddingBottom="10dp"
+                 android:paddingLeft="5dp"
+                 android:paddingRight="5dp"
+                 android:text="When  [ Heat up ! ]  button is pressed, this selection creates a number of Threads of Uncompleted HTTP GET request, aimed for the inserted URL by the user\n\nSteps:\n\n1. Enter URL of the website.\n2.Press [ Heat up ! ] button.\n "
+                 android:textSize="20sp"
+                 android:textColor="#CCFFFFFF"
+                 />
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="20dp"
+                 android:paddingBottom="20dp"
+                 android:text="[ Stamp Image ]"
+                 android:textSize="30sp"
+                 android:textColor="#CC4FC3F7"
+                 />
+
+             <TextView
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:paddingTop="10dp"
+                 android:paddingBottom="10dp"
+                 android:paddingLeft="5dp"
+                 android:paddingRight="5dp"
+                 android:text="Pressing [ Stamp Image ] button will migrate you to the steganographic functionality.\n\nIn easier language, Steganography is the the practice of concealing messages or information within other non-secret text or data.\nThrough this option you can  attach any text as a signature to the concerned image.\n\nThis inserted text is not visible to anyone who is viewing the image. Long story short, inserted text will remain hidden and can obly be validated by a key which is displayed by a toast notification when you press [ Stamp Image ] button\n\nOn inserting the key to message bar, if you press [ Extract ] button, you will get a toast notification with the same text you inserted to the image.\n\nSteps:\n\n1.Enter the text.\n2.Select image.\n3.Press [ Stamp Image ] button.\n4.Remember the key.\n5.Insert key in the message bar and check the inserted text by pushing [ Extract ] button.\n\n\nThank You for your support.\n\nFor more details contact developers ."
+                 android:textSize="20sp"
+                 android:textColor="#CCFFFFFF" />
+
+
+
+         </LinearLayout>
+
+
+     </ScrollView>
+
+
+
+
+</LinearLayout>
